@@ -37,8 +37,8 @@ export default defineComponent({
                     h(DropTransition, { delay: 0.16 }, () => h(InfoPanel)),
                   ])
                 ),
-          navScreenBottom: () => h(BloggerInfo),
-          ...(isMobile.value ? { sidebar: () => h(InfoList) } : {}),
+          // navScreenBottom: () => h(BloggerInfo),
+          // ...(isMobile.value ? { sidebar: () => h(InfoList) } : {}),
         }
       ),
     ];
