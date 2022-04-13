@@ -16,7 +16,6 @@
     "dev:copy": "lerna run dev:copy --parallel",
     "docs:vite-build": "lerna run docs:vite-build --parallel",
     "docs:webpack-build": "lerna run docs:vite-build --parallel",
-    "postinstall": "husky install",
     "lerna:bootstrap": "lerna bootstrap",
     "lerna:clean": "lerna clean",
     "lerna:release": "ts-node -O {\\\"module\\\":\\\"commonjs\\\"} scripts/release",
